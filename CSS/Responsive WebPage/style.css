@@ -1,0 +1,49 @@
+.first{
+    display: flex;
+    margin: 20px;
+}
+
+.first1{
+    height: 150px;
+    width: 30%;
+    background-color: rgb(7, 7, 88);
+    margin-right: 20px;
+}
+
+.first2{
+    height: 150px;
+    width: 70%;
+    background-color: rgb(86, 83, 83);
+}
+
+.second{
+    height: 250px;
+    
+    margin: 20px;
+    background-color: rgb(9, 9, 215);
+}
+.third{
+    display: flex;
+}
+
+.third div{
+    height: 300px;
+    width: 33.3%;
+    background-color: rgb(147, 144, 144);
+    margin: 20px;
+}
+
+/*--- media query for mobile ----*/
+@media only screen and (max-width: 700px) {
+   
+    .third{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .third div{
+        height: 200px;
+        width: 94%;
+        margin: 20px;
+    }
+  }
