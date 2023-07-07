@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row: 30px;
+    height: 10%;
+    
+    gap: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+
+.cell{
+    border: 2px solid black;
+    margin: 5px;
+}
+img{
+   height: 100%;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 700px){
+
+    .container{
+        display: flex;
+        
+     flex-direction: column;
+    }
+
+
+}
