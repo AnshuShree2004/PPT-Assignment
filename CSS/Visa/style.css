@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*--- nav bar   ----*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(13, 13, 117);
+    color: white;
+    height: 10%;
+    font-family: 'Playfair Display', serif;
+}
+
+.logo img{
+    height: 70px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5%;
+}
+
+li{
+    padding: 0 15px;
+    font-size: 1.1em;
+    
+}
+
+nav ul li:hover{
+    color: rgb(153, 153, 228);
+}
+
+button{
+    padding: 10px 28px;
+    border-radius: 7px;
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+.ham{
+    display: none;
+    height: 40px;
+}
+
+
+/*--- main ---*/
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+.left{
+    width: 50%;
+    margin:5% 15%;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2.3rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    color: rgb(45, 159, 212);
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.left div{
+    font-size: 1.1rem;
+    color: rgb(11, 97, 136);
+    margin-top: 10%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+p{
+    font-size: 1.3rem;
+    font-family: 'Agdasima', sans-serif;
+}
+
+.left img{
+    height: 100%;
+    width: 100%;
+}
+
+.right{
+    width: 50%;
+    margin: 5% 10%;
+}
+
+video{
+    height: 88%;
+    width: 100%;
+}
+
+.hidden-fee{
+    background-color: black;
+    height: 15%;
+    text-align: center;
+    color: white;
+}
+
+.hidden-fee h1{
+    font-size: 2rem;
+    padding-top: 10%;
+}
+
+.hidden-fee div{
+    padding: 7%;
+}
+
+.hidden-fee div p{
+    font-size: 1.6rem;
+    color: white;
+}
+
+
+
+/*---footer ----*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    height: 25%;
+    padding-bottom: 5%;
+}
+
+.one-card, .navigation, .support, .newsletter{
+    width: 25%;
+    padding: 0 2%;
+}
+
+h3{
+    font-size: 1.3rem;
+    padding:10% 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+.one-card p{
+    font-size: 15px;
+    margin:12px 0
+}
+
+.navigation ul,.support ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation ul li, .support ul li{
+    font-size: 13px;
+    font-family: 'Agdasima', sans-serif;
+    margin:7px 0
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 40px;
+    width: 100%;
+    margin: 10% 0;
+    text-align: center;
+}
+
+
+
+
+/*--- media query for mobile----*/
+@media only screen and (max-width: 700px) {
+
+
+
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    ul{
+
+        display: none;
+    }
+
+    .btn button{
+        display: none;
+    }
+
+
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .ham{
+        display: flex;
+        
+    }
+
+    .hidden-fee{
+        background-color: white;
+        color: black;
+    }
+
+    .hidden-fee div p{
+        font-size: 1.6rem;
+        color: rgb(5, 5, 5);
+        font-weight: 800;
+    }
+
+    footer{
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+  }
