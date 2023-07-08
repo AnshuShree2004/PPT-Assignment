@@ -30,7 +30,7 @@ body {
   border-radius: 15px;
 }
 .time-display {
-  font-size: 67px;
+  font-size: 4rem;
   color: black;
 }
 
@@ -42,4 +42,24 @@ body {
 .min {
   margin: 0 100px;
   text-align: center;
+}
+
+@media only screen and (max-width: 550px){
+
+  .container{
+    width: 200px;
+    height: 100px;
+  }
+.time-display{
+  font-size: 2rem;
+}
+
+.time{
+  font-size: 10px;
+}
+
+.min{
+  margin: 0 29px;
+  
+}
 }
