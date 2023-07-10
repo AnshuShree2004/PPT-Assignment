@@ -1,0 +1,88 @@
+
+
+
+.container {
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+input{
+    height: 45px;
+    width: 350px;
+    text-align: center;
+    font-size: 17px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  margin: 0;
+  padding: 10px;
+  background: -webkit-linear-gradient(#fe015e, #e4b4cb);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button{
+ background-image: linear-gradient(to right,#FF90BB,#FF2171);
+ border: none;
+    margin: 10px;
+    padding: 12px 35px;
+    font-size: 18px;
+    color: aliceblue;
+}
+#result {
+    display: none;
+    height: 400px;
+    width: 400px;
+  text-align: center;
+ background-color: rgba(247, 125, 145,0.5);
+  margin-top: 20px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  padding: 0 17px;
+  height: 20px;
+  font-size: 18px;
+}
+
+.img-book img {
+  margin-top: 30px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+h3 {
+  font-size: 37px;
+}
